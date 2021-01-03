@@ -1,10 +1,10 @@
 # PythonDS3-Selected-Assignments
 Selected homeworks from [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds3/index.html)
 
-* [Decimal to Generic Base Converter](https://repl.it/@RiccardoPesce/DecimalToBaseConverter)
-* [Water Jugs Problem](https://repl.it/@RiccardoPesce/JugFillingAlgorithm)
-* [Reverse List (with Recursion)](https://repl.it/@RiccardoPesce/RecursiveReverseList)
-* [Knapsack Problem (using Dynamic Programming)](https://repl.it/@RiccardoPesce/KnapsackProblem)
-* [Minimum Subset summing to S (using Dynamic Programming)](https://repl.it/@RiccardoPesce/MinSubsetSummingToS)
-* [Minimum Edit Distance (using Dynamic Programming))](https://repl.it/@RiccardoPesce/MinEditDistance)
-* [Infix to Prefix and Postfix (using Stacks)](https://repl.it/@RiccardoPesce/InfixPrefixPostfix)
+* [Decimal to Generic Base Converter](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/decimal_to_base.py)
+* [Water Jugs Problem](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/water_jugs.py)
+* [Reverse List (with Recursion)](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/reverse_list.py)
+* [Knapsack Problem (using Dynamic Programming)](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/knapsack.py)
+* [Minimum Subset summing to S (using Dynamic Programming)](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/coin_change.py)
+* [Minimum Edit Distance (using Dynamic Programming))](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/min_edit_distance.py)
+* [Infix to Prefix and Postfix (using Stacks)](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/infix_postfix_prefix.py)
