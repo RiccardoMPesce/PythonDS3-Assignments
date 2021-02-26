@@ -13,4 +13,4 @@ Selected homeworks from [Problem Solving with Algorithms and Data Structures usi
 * [Minimum Edit Distance (using Dynamic Programming)](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/min_edit_distance.py)
 
 ### Chapter 6
-* [Mergesort without slice](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/mergesort_without_slice.py)
+* [Mergesort without slice](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap6/mergesort_without_slice.py)
