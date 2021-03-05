@@ -3,7 +3,6 @@ Selected homeworks from [Problem Solving with Algorithms and Data Structures usi
 
 ### Chapter 4
 * [Decimal to Generic Base Converter](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/decimal_to_base.py)
-* [Infix to Prefix and Postfix (using Stacks)](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/infix_postfix_prefix.py)
 
 ### Chapter 5
 * [Water Jugs Problem](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/water_jugs.py)
