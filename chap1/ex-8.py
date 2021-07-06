@@ -55,6 +55,13 @@ class Fraction:
 
     def __radd__(self, other_fraction):
         return self.__add__(other_fraction)
+    
+    def __iadd__(self, other_fraction):
+        new_fraction = self.__add__(other_fraction)
+        self.num = new_fraction.num
+        self.den = new_fraction.den
+
+        return new_fraction
 
     def show(self):
         print("{:d}/{:d}".format(self.num, self.den))
