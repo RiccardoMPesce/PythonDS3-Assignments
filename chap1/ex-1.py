@@ -5,8 +5,6 @@ def gcd(m, n):
 
 class Fraction:
     def __init__(self, top, bottom):
-        if type(top) is not int or type(bottom) is not int:
-            raise Exception("Values must be integers")
         
         self.num = top
         self.den = bottom

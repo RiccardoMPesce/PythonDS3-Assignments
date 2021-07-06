@@ -10,6 +10,9 @@ class Fraction:
         self.num = top
         self.den = bottom
 
+        self.num //= cmmn 
+        self.den //= cmmn
+
     def __str__(self):
         return "{:d}/{:d}".format(self.num, self.den)
 

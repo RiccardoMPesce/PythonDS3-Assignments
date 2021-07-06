@@ -5,10 +5,16 @@ def gcd(m, n):
 
 class Fraction:
     def __init__(self, top, bottom):
+        if type(top) is not int or type(bottom) is not int:
+            raise Exception("Values must be integers")
+
         cmmn = gcd(top, bottom)
         
         self.num = top if bottom > 0 else - top
         self.den = abs(bottom)
+
+        self.num //= cmmn 
+        self.den //= cmmn
 
     def __str__(self):
         return "{:d}/{:d}".format(self.num, self.den)
