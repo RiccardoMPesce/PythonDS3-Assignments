@@ -5,6 +5,9 @@ def gcd(m, n):
 
 class Fraction:
     def __init__(self, top, bottom):
+        if type(top) is not int or type(bottom) is not int:
+            raise Exception("Values must be integers")
+        
         self.num = top
         self.den = bottom
 
@@ -25,36 +28,6 @@ class Fraction:
         cmmn = gcd(new_num, new_den)
         
         return Fraction(new_num // cmmn, new_den // cmmn)
-
-    def __gt__(self, other_fraction):
-        first_num = self.num * other_fraction.den
-        second_num = other_fraction.num * self.den
-
-        return first_num > second_num
-    
-    def __ge__(self, other_fraction):
-        first_num = self.num * other_fraction.den
-        second_num = other_fraction.num * self.den
-
-        return first_num >= second_num
-    
-    def __lt__(self, other_fraction):
-        first_num = self.num * other_fraction.den
-        second_num = other_fraction.num * self.den
-
-        return first_num < second_num
-    
-    def __le__(self, other_fraction):
-        first_num = self.num * other_fraction.den
-        second_num = other_fraction.num * self.den
-
-        return first_num <= second_num
-    
-    def __ne__(self, other_fraction):
-        first_num = self.num * other_fraction.den
-        second_num = other_fraction.num * self.den
-
-        return first_num != second_num
 
     def show(self):
         print("{:d}/{:d}".format(self.num, self.den))
