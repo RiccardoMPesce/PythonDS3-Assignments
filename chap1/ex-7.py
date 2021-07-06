@@ -64,3 +64,4 @@ class Fraction:
     
     def get_den(self):
         return self.den
+        
