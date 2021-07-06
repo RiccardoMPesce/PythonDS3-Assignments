@@ -5,7 +5,6 @@ def gcd(m, n):
 
 class Fraction:
     def __init__(self, top, bottom):
-        # Reducing fraction straight away
         cmmn = gcd(top, bottom)
         
         self.num = top
@@ -24,7 +23,6 @@ class Fraction:
         new_num = self.num * other_fraction.den + self.den * other_fraction.num
         new_den = self.den * other_fraction.den
         
-        # No need to reduce anymore 
         return Fraction(new_num, new_den)
 
     def __sub__(self, other_fraction):
@@ -51,8 +49,6 @@ class Fraction:
 
     def show(self):
         print("{:d}/{:d}".format(self.num, self.den))
-
-    # Here are the methods requested
 
     def get_num(self):
         return self.num

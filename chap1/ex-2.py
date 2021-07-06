@@ -24,13 +24,10 @@ class Fraction:
         new_num = self.num * other_fraction.den + self.den * other_fraction.num
         new_den = self.den * other_fraction.den
         
-        # No need to reduce anymore 
         return Fraction(new_num, new_den)
 
     def show(self):
         print("{:d}/{:d}".format(self.num, self.den))
-
-    # Here are the methods requested
 
     def get_num(self):
         return self.num
