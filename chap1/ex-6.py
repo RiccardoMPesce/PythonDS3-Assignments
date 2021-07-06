@@ -10,8 +10,8 @@ class Fraction:
 
         cmmn = gcd(top, bottom)
         
-        self.num = top
-        self.den = bottom
+        self.num = top if bottom > 0 else - top
+        self.den = abs(bottom)
 
         self.num //= cmmn 
         self.den //= cmmn
