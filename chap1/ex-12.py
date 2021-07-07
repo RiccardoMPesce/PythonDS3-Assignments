@@ -159,3 +159,23 @@ class HalfAdder(BinaryGate):
     def perform_gate_logic(self):
         return (self.xor_gate.perform_gate_logic(), self.and_gate.perform_gate_logic())
         
+class FullAdder(HalfAdder):
+    def __init__(self, lbl):
+        super().__init__(lbl)
+
+        self.xor_gate = XorGate(lbl)
+
+    def perform_gate_logic(self):
+        c_prev = 0
+
+        for i in range(8):
+            (s, c) = super().perform_gate_logic()
+            self.pin_a = c_prev
+            self.pin_b = s 
+            (out_s, new_c) = super().perform_gate_logic()
+            self.xor_gate.pin_a = new_c
+            self.xor_gate.pin_b = c
+            out_c = self.xor_gate.perform_gate_logic()
+            c_prev = out_c
+
+            return (out_s, out_c)
