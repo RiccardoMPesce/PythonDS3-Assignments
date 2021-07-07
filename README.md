@@ -12,6 +12,8 @@ Selected homeworks from [Problem Solving with Algorithms and Data Structures usi
 * [1.17.8](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ex-8.py)
 * [1.17.9](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ex-9.py)
 * [1.17.10](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ex-10.py)
+* [1.17.11](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ex-11.py)
+* [1.17.12](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ex-12.py)
 
 ### Chapter 4
 * [Decimal to Generic Base Converter](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/decimal_to_base.py)
