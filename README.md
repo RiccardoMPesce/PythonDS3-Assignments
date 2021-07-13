@@ -15,6 +15,9 @@ Homeworks from [Problem Solving with Algorithms and Data Structures using Python
 11. The most simple arithmetic circuit is known as the half adder. Research the simple half-adder circuit. Implement this circuit. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-11.py))
 12. Now extend that circuit and implement an 8-bit full adder. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-12.py))
 
+__EXTRA__
+* [Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem) implementation. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-imt.py))
+
 ### Chapter 4
 * [Decimal to Generic Base Converter](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/decimal_to_base.py)
 
