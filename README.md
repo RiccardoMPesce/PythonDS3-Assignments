@@ -1,5 +1,5 @@
-# PythonDS3 Selected Assignments
-Selected homeworks from [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds3/index.html) book. Exercises are numbered after the standard order used by the book itself.
+# PythonDS3 Assignments
+Homeworks from [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds3/index.html) book. Exercises are numbered after the standard order used by the book itself.
 
 ### Chapter 1
 * [1.17.1](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ex-1.py)
