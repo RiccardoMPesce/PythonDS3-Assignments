@@ -16,7 +16,12 @@ def infinite_monkey(text):
         n_generated += 1
 
         generated_string += next_ch
+        # Uncomment for debug purposes
+        # print(f"Generated {generated_string}")
+
         if text_lower.startswith(generated_string):
+            # Uncomment for debug purposes
+            # print(f"Generated {generated_string}")
             current_score = len(generated_string)
             if current_score == max_score:
                 break
