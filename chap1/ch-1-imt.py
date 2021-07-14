@@ -15,6 +15,9 @@ def infinite_monkey(text):
         next_ch = alphabet[rand_i]
         n_generated += 1
 
+        # Uncomment for debug purposes
+        # print("Generated character " + next_ch)
+
         generated_string += next_ch
         # Uncomment for debug purposes
         # print(f"Generated {generated_string}")
