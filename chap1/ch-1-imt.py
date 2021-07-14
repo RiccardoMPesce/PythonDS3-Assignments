@@ -1,4 +1,5 @@
-import random
+import sys, random
+from typing import final
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
@@ -36,7 +37,14 @@ def infinite_monkey(text):
 
 
 def main():
-    s = "Ciao"
+    try:
+        s = sys.argv[1]
+    except Exception as e:
+        print(f"Raised exception: {e}")
+        s = "Ciao"
+    finally:
+        print(f"Using {s} as input string.")
+        
     ch_generated = infinite_monkey(s)
     print(f"Matching string '{s}' generated after {ch_generated} characters generated.")
 
