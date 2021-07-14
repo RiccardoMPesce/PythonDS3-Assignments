@@ -2,6 +2,14 @@
 Homeworks from [Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds3/index.html) book.
 
 ### Chapter 1
+
+#### Questions
+1. Construct a class hierarchy for people on a college campus. Include faculty, staff, and students. What do they have in common? What distinguishes them from one another?
+2. Construct a class hierarchy for bank accounts.
+3. Construct a class hierarchy for different types of computers.
+4. Using the classes provided in the chapter, interactively construct a circuit and test it.
+
+#### Exercises
 1. Implement the simple methods `get_num` and `get_den` that will return the numerator and denominator of a fraction. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-1.py))
 2. In many ways it would be better if all fractions were maintained in lowest terms right from the start. Modify the constructor for the `Fraction` class so that `GCD` is used to reduce fractions immediately. Notice that this means the `__add__` function no longer needs to reduce. Make the necessary modifications. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-2.py))
 3. Implement the remaining simple arithmetic operators (`__sub__`, `__mul__`, and `__truediv__`). ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-3.py))
@@ -15,7 +23,7 @@ Homeworks from [Problem Solving with Algorithms and Data Structures using Python
 11. The most simple arithmetic circuit is known as the half adder. Research the simple half-adder circuit. Implement this circuit. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-11.py))
 12. Now extend that circuit and implement an 8-bit full adder. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-ex-12.py))
 
-#### __Extras__
+#### Extras
 * [Infinite Monkey Theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem) implementation. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-imt.py))
 
 ### Chapter 4
