@@ -1,9 +1,9 @@
 import random
 
-alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ".lower()
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
 def infinite_monkey(text):
-    text_lower = text.lower()
+    text_lower = text.upper()
     max_score = len(text)
     current_score = 0
     generated_string = ""
