@@ -1,5 +1,4 @@
 import sys, random
-from typing import final
 
 alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
 
