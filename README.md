@@ -5,7 +5,7 @@ Homeworks from [Problem Solving with Algorithms and Data Structures using Python
 
 #### Questions
 1. Construct a class hierarchy for people on a college campus. Include faculty, staff, and students. What do they have in common? What distinguishes them from one another? ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-q-1.ipynb))
-2. Construct a class hierarchy for bank accounts.
+2. Construct a class hierarchy for bank accounts. ([Solution](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/ch-1-q-2.ipynb))
 3. Construct a class hierarchy for different types of computers.
 4. Using the classes provided in the chapter, interactively construct a circuit and test it.
 
