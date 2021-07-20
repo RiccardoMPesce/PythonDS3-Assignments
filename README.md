@@ -7,20 +7,20 @@ shown on a single script.
 
 ## Index
 
-### [Chapter 1](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap1/)
+### [Chapter 1](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter1/)
 
-### [Chapter 2](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap2/)
+### [Chapter 2](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter2/)
 
-### [Chapter 3](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap3/)
+### [Chapter 3](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter3/)
 
-### [Chapter 4](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap4/)
+### [Chapter 4](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter4/)
 
-### [Chapter 5](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap5/)
+### [Chapter 5](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter5/)
 
-### [Chapter 6](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap6/)
+### [Chapter 6](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter6/)
 
-### [Chapter 7](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap7/)
+### [Chapter 7](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter7/)
 
-### [Chapter 8](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap8/)
+### [Chapter 8](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter8/)
 
-### [Chapter 9](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chap9/)
+### [Chapter 9](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter9/)
