@@ -5,7 +5,7 @@ I am using notebooks since they are interactive and they do a fine job in struct
 you have to incrementally modify classes or provide snippets of code which does not make sense if 
 shown on a single script.
 
-## Index
+## Chapters
 
 ### [1. Introduction](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter1/)
 
