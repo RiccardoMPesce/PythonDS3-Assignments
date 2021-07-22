@@ -7,20 +7,20 @@ shown on a single script.
 
 ## Index
 
-### [Chapter 1](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter1/)
+### [1. Introduction](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter1/)
 
-### [Chapter 2](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter2/)
+### [2. A Proper Classs](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter2/)
 
-### [Chapter 3](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter3/)
+### [3. Analysis](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter3/)
 
-### [Chapter 4](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter4/)
+### [4. Basic Data Structures](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter4/)
 
-### [Chapter 5](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter5/)
+### [5. Recursion](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter5/)
 
-### [Chapter 6](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter6/)
+### [6. Sorting and Searching](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter6/)
 
-### [Chapter 7](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter7/)
+### [7. Trees and Tree Algorithm](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter7/)
 
-### [Chapter 8](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter8/)
+### [8. Graphs and Graph Algorithm](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter8/)
 
-### [Chapter 9](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter9/)
+### [9. Advanced Topics](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter9/)
