@@ -5,4 +5,4 @@
 * #### [Exercises](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter4/chapter3_exercises.ipynb)
 
 * #### Extras
-    * [Modification of the simulator](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter4/enhanced_printer.py)
+    * [Modification of the simulator](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter4/enhanced_printer.ipynb)
