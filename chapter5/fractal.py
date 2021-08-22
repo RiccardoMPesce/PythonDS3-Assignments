@@ -2,26 +2,32 @@ import math
 import turtle
 import random
 
-def tree(branch_len, t):
+def tree(branch_len, min_step, max_step, t):
+    t.color((0, 255 - branch_len if branch_len >= 0 else 255, 0))
     t.pensize(branch_len ** (1 / 2))
-    if branch_len > 5:
+    a1 = random.randint(15, 45)
+    a2 = random.randint(15, 45)
+    step = random.randint(min_step, max_step)
+    if branch_len >= min_step:
         t.forward(branch_len)
-        t.right(20)
-        tree(branch_len - random.randint(0, branch_len), t)
-        t.left(40)
-        tree(branch_len - random.randint(0, branch_len), t)
-        t.right(20)
+        t.right(a1)
+        tree(branch_len - step, min_step, max_step, t)
+        t.left(a1 + a2)
+        tree(branch_len - step, min_step, max_step, t)
+        t.right(a2)
+        t.up()
         t.backward(branch_len)
+        t.down()
 
 def main():
     t = turtle.Turtle()
     my_win = turtle.Screen()
+    my_win.colormode(255)
     t.left(90)
     t.up()
-    t.backward(100)
+    t.backward(300)
     t.down()
-    t.color("green")
-    tree(150, t)
+    tree(150, 15, 25, t)
     my_win.exitonclick()
 
 if __name__ == "__main__":
