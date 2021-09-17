@@ -5,17 +5,27 @@ HEIGHT = 1024
 ORDER = 3
 LEN = WIDTH // 2
 
-def hilbert(order, t):
+def hilbert(order, t, start=None, l=WIDTH//2, rot=None):
     if order == 1:
-        draw_curve(t) 
+        draw_curve(t, start, l, rot) 
     else:
-        hilbert(order - 1)
-        hilbert(order - 1)
-        hilbert(order - 1)
+        # t.left(90)
+        hilbert(order - 1, t, l=l//4, rot="r")
+        t.right(90)
+        t.forward(l // 2)
+        hilbert(order - 1, t, l=l//4)
+        t.left(90)
+        t.forward(l // 2)
+        hilbert(order - 1, t, l=l//4)
+        # t.left(90)
+        t.forward(l // 2)
+        hilbert(order - 1, t, l=l//4, rot="l")
 
 def draw_curve(t, start=None, l=WIDTH//2, rot=None):
     if start is not None:
+        t.up()
         t.goto(start)
+        t.down()
     
     if rot is None:
         t.seth(90)
@@ -27,9 +37,9 @@ def draw_curve(t, start=None, l=WIDTH//2, rot=None):
     elif rot.lower() in ["l", "left"]:
         t.seth(180)
         t.forward(l)
-        t.right(90)
+        t.left(90)
         t.forward(l)
-        t.right(90)
+        t.left(90)
         t.forward(l)
     elif rot.lower() in ["r", "right"]:
         t.seth(0)
@@ -50,8 +60,7 @@ def main():
     t.goto((WIDTH // 4, HEIGHT // 4))
     t.down()
 
-    draw_curve(t, (WIDTH // 4, HEIGHT // 4), WIDTH // 50, rot="r")
-    draw_curve(t, l=WIDTH // 50, rot="l")
+    hilbert(2, t)
 
     s.exitonclick()
 
