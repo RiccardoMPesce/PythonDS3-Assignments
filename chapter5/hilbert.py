@@ -4,6 +4,7 @@ WIDTH = 1024
 HEIGHT = 1024
 
 def hilbert(t, order, direction, step):
+    print(f"Calling hilbert with order {order}, direction {direction}, step {step}.")
     if order > 0:
         t.left(direction * 90)
         hilbert(t, order - 1, - direction, step)
@@ -29,9 +30,11 @@ def main():
     t.goto((WIDTH // 10, HEIGHT // 10))
     t.down()
 
-    order = 3
+    order = 2
 
-    hilbert(t, order, 1, (WIDTH // 10) // order)
+    t.speed("fastest")
+
+    hilbert(t, order, 1, (WIDTH // 5) // order)
 
     s.exitonclick()
 
