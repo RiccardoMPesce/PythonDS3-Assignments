@@ -6,6 +6,61 @@ from pythonds3 import Stack
 WIDTH = 1024
 HEIGHT = 1024
 
+TOWER_HEIGHT = 3
+
+class Peg:
+    def __init__(self, height, color, x, y):
+        self.height = height
+        self._peg = []
+        self.size = 0
+        
+        # Turtle object
+        self.tower = turtle.Turtle()
+        self.tower.color(color)
+
+        self.tower.up()
+        self.tower.setpos(x, y)
+
+    def push(self, disk):
+        xpos = self.tower.pos()[0]
+        ypos = self.size * 25 + 10
+
+        disk.jump_to(xpos, ypos, self.height)
+
+        self._peg.append(disk)
+
+    def pop(self):
+        return self._peg.pop()
+
+
+class Disk:
+    def __init__(self, border_color, color, x, y):
+        self.disk = turtle.Turtle()
+        self.disk.color(border_color, color)
+        self.disk.up()
+        self.disk.goto(x, y)
+
+    def jump_to(self, x, y, h):
+        self.disk.goto(self.disk.pos()[0], h)
+        self.disk.goto(x, h)
+        self.disk.goto(x, y)
+
+
+class Simulate:
+    def __init__(self, n_disks=3, n_pegs=3):
+        self.n_disks = n_disks
+        self.n_pegs = n_pegs
+
+        self.tower_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+        self.disk_border_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+        self.disk_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+
+        w, h = turtle.screensize()
+        self._pegs = [Peg()]        
+        
+
+        
+
 def move_tower(height, from_pole, to_pole, with_pole):
     if height >= 1:
         move_tower(height - 1, from_pole, with_pole, to_pole)
@@ -20,27 +75,7 @@ def main():
     turtle.setworldcoordinates(0, 0, WIDTH, HEIGHT)
     turtle.colormode(255)
 
-    t1 = turtle.Turtle()
-    t2 = turtle.Turtle()
-    t3 = turtle.Turtle()
     
-    p1 = turtle.Turtle()
-    p2 = turtle.Turtle()
-    p3 = turtle.Turtle()
-
-    for i, p in enumerate([p1, p2, p3]):
-        p.shape("square")
-        p.turtlesize(HEIGHT // 30, 1, None)
-        p.penup()
-        p.setposition((WIDTH // 3) * i + WIDTH // 6, 10)
-
-    for i, t in enumerate([t1, t2, t3]):
-        color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-        t.shape("square")
-        t.color(*color)
-        t.turtlesize(1, i * (WIDTH // 300) + (WIDTH // 1000))
-        t.penup()
-        t.setpos(WIDTH // 6, 10 - i)
 
     turtle.exitonclick()
 
