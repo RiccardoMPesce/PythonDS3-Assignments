@@ -1,0 +1,110 @@
+Sorting ['P', 'Y', 'T', 'H', 'O', 'N'] with <function bubble_sort at 0x10f36e4c0>
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'T', 'Y', 'P', 'O', 'N']
+['H', 'P', 'Y', 'T', 'O', 'N']
+['H', 'O', 'Y', 'T', 'P', 'N']
+['H', 'N', 'Y', 'T', 'P', 'O']
+['H', 'N', 'Y', 'T', 'P', 'O']
+['H', 'N', 'T', 'Y', 'P', 'O']
+['H', 'N', 'P', 'Y', 'T', 'O']
+['H', 'N', 'O', 'Y', 'T', 'P']
+['H', 'N', 'O', 'Y', 'T', 'P']
+['H', 'N', 'O', 'T', 'Y', 'P']
+['H', 'N', 'O', 'P', 'Y', 'T']
+['H', 'N', 'O', 'P', 'Y', 'T']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+
+
+Sorting ['P', 'Y', 'T', 'H', 'O', 'N'] with <function selection_sort at 0x10f37cf70>
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'N', 'T', 'P', 'O', 'Y']
+['H', 'N', 'T', 'P', 'O', 'Y']
+['H', 'N', 'T', 'P', 'O', 'Y']
+['H', 'N', 'T', 'P', 'O', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+
+
+Sorting ['P', 'Y', 'T', 'H', 'O', 'N'] with <function insertion_sort at 0x10f37a040>
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'T', 'Y', 'H', 'O', 'N']
+['P', 'T', 'H', 'Y', 'O', 'N']
+['P', 'H', 'T', 'Y', 'O', 'N']
+['H', 'P', 'T', 'Y', 'O', 'N']
+['H', 'P', 'T', 'O', 'Y', 'N']
+['H', 'P', 'O', 'T', 'Y', 'N']
+['H', 'O', 'P', 'T', 'Y', 'N']
+['H', 'O', 'P', 'T', 'N', 'Y']
+['H', 'O', 'P', 'N', 'T', 'Y']
+['H', 'O', 'N', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+
+
+Sorting ['P', 'Y', 'T', 'H', 'O', 'N'] with <function shell_sort at 0x10f37a0d0>
+['P', 'Y', 'T', 'H', 'O', 'N']
+['P', 'Y', 'T', 'H', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'T', 'P', 'O', 'N']
+['H', 'Y', 'O', 'P', 'T', 'N']
+['H', 'Y', 'O', 'P', 'T', 'N']
+['H', 'O', 'Y', 'P', 'T', 'N']
+['H', 'O', 'P', 'Y', 'T', 'N']
+['H', 'O', 'P', 'T', 'Y', 'N']
+['H', 'N', 'O', 'P', 'T', 'Y']
+
+
+Sorting ['P', 'Y', 'T', 'H', 'O', 'N'] with <function merge_sort at 0x10f37a160>
+Merging ['Y'] and ['T'] into ['T', 'Y']
+Merging ['P'] and ['T', 'Y'] into ['P', 'T', 'Y']
+Merging ['O'] and ['N'] into ['N', 'O']
+Merging ['H'] and ['N', 'O'] into ['H', 'N', 'O']
+Merging ['P', 'T', 'Y'] and ['H', 'N', 'O'] into ['H', 'N', 'O', 'P', 'T', 'Y']
+['H', 'N', 'O', 'P', 'T', 'Y']
+
+
+Sorting ['P', 'Y', 'T', 'H', 'O', 'N'] with <function quick_sort at 0x10f37a280>
+Partitioning ['P', 'Y', 'T', 'H', 'O', 'N']
+Pivoting on O
+After pivot: ['H', 'N', 'O', 'P', 'Y', 'T']
+New split point is 2
+Partitioning ['H', 'N']
+Pivoting on N
+After pivot: ['H', 'N', 'O', 'P', 'Y', 'T']
+New split point is 1
+Partitioning ['P', 'Y', 'T']
+Pivoting on Y
+After pivot: ['H', 'N', 'O', 'P', 'T', 'Y']
+New split point is 5
+Partitioning ['P', 'T']
+Pivoting on P
+After pivot: ['H', 'N', 'O', 'P', 'T', 'Y']
+New split point is 3
+['H', 'N', 'O', 'P', 'T', 'Y']
+
+

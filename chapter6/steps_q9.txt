@@ -1,0 +1,817 @@
+Partitioning [87, 81, 3, 17, 24, 97, 18, 88, 68, 32]
+Pivoting on 24
+After pivot: [3, 17, 18, 24, 87, 81, 97, 88, 68, 32]
+New split point is 3
+Partitioning [3, 17, 18]
+Pivoting on 17
+After pivot: [3, 17, 18, 24, 87, 81, 97, 88, 68, 32]
+New split point is 1
+Partitioning [87, 81, 97, 88, 68, 32]
+Pivoting on 97
+After pivot: [3, 17, 18, 24, 87, 81, 88, 68, 32, 97]
+New split point is 9
+Partitioning [87, 81, 88, 68, 32]
+Pivoting on 88
+After pivot: [3, 17, 18, 24, 87, 81, 68, 32, 88, 97]
+New split point is 8
+Partitioning [87, 81, 68, 32]
+Pivoting on 81
+After pivot: [3, 17, 18, 24, 68, 32, 81, 87, 88, 97]
+New split point is 6
+Partitioning [68, 32]
+Pivoting on 68
+After pivot: [3, 17, 18, 24, 32, 68, 81, 87, 88, 97]
+New split point is 5
+[3, 17, 18, 24, 32, 68, 81, 87, 88, 97]
+Partitioning [25, 2, 4, 27, 32, 91, 71, 47, 81, 44]
+Pivoting on 32
+After pivot: [25, 2, 4, 27, 32, 91, 71, 47, 81, 44]
+New split point is 4
+Partitioning [25, 2, 4, 27]
+Pivoting on 2
+After pivot: [2, 25, 4, 27, 32, 91, 71, 47, 81, 44]
+New split point is 0
+Partitioning [25, 4, 27]
+Pivoting on 4
+After pivot: [2, 4, 25, 27, 32, 91, 71, 47, 81, 44]
+New split point is 1
+Partitioning [25, 27]
+Pivoting on 25
+After pivot: [2, 4, 25, 27, 32, 91, 71, 47, 81, 44]
+New split point is 2
+Partitioning [91, 71, 47, 81, 44]
+Pivoting on 47
+After pivot: [2, 4, 25, 27, 32, 44, 47, 91, 71, 81]
+New split point is 6
+Partitioning [91, 71, 81]
+Pivoting on 71
+After pivot: [2, 4, 25, 27, 32, 44, 47, 71, 91, 81]
+New split point is 7
+Partitioning [91, 81]
+Pivoting on 91
+After pivot: [2, 4, 25, 27, 32, 44, 47, 71, 81, 91]
+New split point is 9
+[2, 4, 25, 27, 32, 44, 47, 71, 81, 91]
+Partitioning [72, 71, 3, 42, 36, 73, 21, 4, 97, 30]
+Pivoting on 36
+After pivot: [3, 21, 4, 30, 36, 72, 71, 42, 73, 97]
+New split point is 4
+Partitioning [3, 21, 4, 30]
+Pivoting on 21
+After pivot: [3, 4, 21, 30, 36, 72, 71, 42, 73, 97]
+New split point is 2
+Partitioning [3, 4]
+Pivoting on 3
+After pivot: [3, 4, 21, 30, 36, 72, 71, 42, 73, 97]
+New split point is 0
+Partitioning [72, 71, 42, 73, 97]
+Pivoting on 42
+After pivot: [3, 4, 21, 30, 36, 42, 72, 71, 73, 97]
+New split point is 5
+Partitioning [72, 71, 73, 97]
+Pivoting on 71
+After pivot: [3, 4, 21, 30, 36, 42, 71, 72, 73, 97]
+New split point is 6
+Partitioning [72, 73, 97]
+Pivoting on 73
+After pivot: [3, 4, 21, 30, 36, 42, 71, 72, 73, 97]
+New split point is 8
+[3, 4, 21, 30, 36, 42, 71, 72, 73, 97]
+Partitioning [19, 60, 17, 51, 99, 84, 40, 66, 55, 27]
+Pivoting on 99
+After pivot: [19, 60, 17, 51, 84, 40, 66, 55, 27, 99]
+New split point is 9
+Partitioning [19, 60, 17, 51, 84, 40, 66, 55, 27]
+Pivoting on 84
+After pivot: [19, 60, 17, 51, 40, 66, 55, 27, 84, 99]
+New split point is 8
+Partitioning [19, 60, 17, 51, 40, 66, 55, 27]
+Pivoting on 51
+After pivot: [19, 17, 40, 27, 51, 60, 66, 55, 84, 99]
+New split point is 4
+Partitioning [19, 17, 40, 27]
+Pivoting on 17
+After pivot: [17, 19, 40, 27, 51, 60, 66, 55, 84, 99]
+New split point is 0
+Partitioning [19, 40, 27]
+Pivoting on 40
+After pivot: [17, 19, 27, 40, 51, 60, 66, 55, 84, 99]
+New split point is 3
+Partitioning [19, 27]
+Pivoting on 19
+After pivot: [17, 19, 27, 40, 51, 60, 66, 55, 84, 99]
+New split point is 1
+Partitioning [60, 66, 55]
+Pivoting on 66
+After pivot: [17, 19, 27, 40, 51, 60, 55, 66, 84, 99]
+New split point is 7
+Partitioning [60, 55]
+Pivoting on 60
+After pivot: [17, 19, 27, 40, 51, 55, 60, 66, 84, 99]
+New split point is 6
+[17, 19, 27, 40, 51, 55, 60, 66, 84, 99]
+Partitioning [15, 78, 30, 38, 43, 29, 75, 97, 98, 60]
+Pivoting on 43
+After pivot: [15, 30, 38, 29, 43, 78, 75, 97, 98, 60]
+New split point is 4
+Partitioning [15, 30, 38, 29]
+Pivoting on 30
+After pivot: [15, 29, 30, 38, 43, 78, 75, 97, 98, 60]
+New split point is 2
+Partitioning [15, 29]
+Pivoting on 15
+After pivot: [15, 29, 30, 38, 43, 78, 75, 97, 98, 60]
+New split point is 0
+Partitioning [78, 75, 97, 98, 60]
+Pivoting on 97
+After pivot: [15, 29, 30, 38, 43, 78, 75, 60, 97, 98]
+New split point is 8
+Partitioning [78, 75, 60]
+Pivoting on 75
+After pivot: [15, 29, 30, 38, 43, 60, 75, 78, 97, 98]
+New split point is 6
+[15, 29, 30, 38, 43, 60, 75, 78, 97, 98]
+Partitioning [6, 51, 1, 75, 71, 70, 84, 76, 66, 54]
+Pivoting on 71
+After pivot: [6, 51, 1, 70, 66, 54, 71, 75, 84, 76]
+New split point is 6
+Partitioning [6, 51, 1, 70, 66, 54]
+Pivoting on 1
+After pivot: [1, 6, 51, 70, 66, 54, 71, 75, 84, 76]
+New split point is 0
+Partitioning [6, 51, 70, 66, 54]
+Pivoting on 70
+After pivot: [1, 6, 51, 66, 54, 70, 71, 75, 84, 76]
+New split point is 5
+Partitioning [6, 51, 66, 54]
+Pivoting on 51
+After pivot: [1, 6, 51, 66, 54, 70, 71, 75, 84, 76]
+New split point is 2
+Partitioning [66, 54]
+Pivoting on 66
+After pivot: [1, 6, 51, 54, 66, 70, 71, 75, 84, 76]
+New split point is 4
+Partitioning [75, 84, 76]
+Pivoting on 84
+After pivot: [1, 6, 51, 54, 66, 70, 71, 75, 76, 84]
+New split point is 9
+Partitioning [75, 76]
+Pivoting on 75
+After pivot: [1, 6, 51, 54, 66, 70, 71, 75, 76, 84]
+New split point is 7
+[1, 6, 51, 54, 66, 70, 71, 75, 76, 84]
+Partitioning [18, 28, 14, 67, 51, 21, 86, 6, 3, 17]
+Pivoting on 51
+After pivot: [18, 28, 14, 21, 6, 3, 17, 51, 67, 86]
+New split point is 7
+Partitioning [18, 28, 14, 21, 6, 3, 17]
+Pivoting on 21
+After pivot: [18, 14, 6, 3, 17, 21, 28, 51, 67, 86]
+New split point is 5
+Partitioning [18, 14, 6, 3, 17]
+Pivoting on 6
+After pivot: [3, 6, 18, 14, 17, 21, 28, 51, 67, 86]
+New split point is 1
+Partitioning [18, 14, 17]
+Pivoting on 14
+After pivot: [3, 6, 14, 18, 17, 21, 28, 51, 67, 86]
+New split point is 2
+Partitioning [18, 17]
+Pivoting on 18
+After pivot: [3, 6, 14, 17, 18, 21, 28, 51, 67, 86]
+New split point is 4
+Partitioning [67, 86]
+Pivoting on 67
+After pivot: [3, 6, 14, 17, 18, 21, 28, 51, 67, 86]
+New split point is 8
+[3, 6, 14, 17, 18, 21, 28, 51, 67, 86]
+Partitioning [65, 46, 49, 88, 21, 20, 93, 87, 12, 7]
+Pivoting on 21
+After pivot: [20, 12, 7, 21, 65, 46, 49, 88, 93, 87]
+New split point is 3
+Partitioning [20, 12, 7]
+Pivoting on 12
+After pivot: [7, 12, 20, 21, 65, 46, 49, 88, 93, 87]
+New split point is 1
+Partitioning [65, 46, 49, 88, 93, 87]
+Pivoting on 49
+After pivot: [7, 12, 20, 21, 46, 49, 65, 88, 93, 87]
+New split point is 5
+Partitioning [65, 88, 93, 87]
+Pivoting on 88
+After pivot: [7, 12, 20, 21, 46, 49, 65, 87, 88, 93]
+New split point is 8
+Partitioning [65, 87]
+Pivoting on 65
+After pivot: [7, 12, 20, 21, 46, 49, 65, 87, 88, 93]
+New split point is 6
+[7, 12, 20, 21, 46, 49, 65, 87, 88, 93]
+Partitioning [80, 91, 13, 25, 73, 39, 43, 5, 87, 89]
+Pivoting on 73
+After pivot: [13, 25, 39, 43, 5, 73, 80, 91, 87, 89]
+New split point is 5
+Partitioning [13, 25, 39, 43, 5]
+Pivoting on 39
+After pivot: [13, 25, 5, 39, 43, 73, 80, 91, 87, 89]
+New split point is 3
+Partitioning [13, 25, 5]
+Pivoting on 25
+After pivot: [13, 5, 25, 39, 43, 73, 80, 91, 87, 89]
+New split point is 2
+Partitioning [13, 5]
+Pivoting on 13
+After pivot: [5, 13, 25, 39, 43, 73, 80, 91, 87, 89]
+New split point is 1
+Partitioning [80, 91, 87, 89]
+Pivoting on 91
+After pivot: [5, 13, 25, 39, 43, 73, 80, 87, 89, 91]
+New split point is 9
+Partitioning [80, 87, 89]
+Pivoting on 87
+After pivot: [5, 13, 25, 39, 43, 73, 80, 87, 89, 91]
+New split point is 7
+[5, 13, 25, 39, 43, 73, 80, 87, 89, 91]
+Partitioning [24, 33, 59, 1, 76, 45, 54, 8, 96, 5]
+Pivoting on 76
+After pivot: [24, 33, 59, 1, 45, 54, 8, 5, 76, 96]
+New split point is 8
+Partitioning [24, 33, 59, 1, 45, 54, 8, 5]
+Pivoting on 1
+After pivot: [1, 24, 33, 59, 45, 54, 8, 5, 76, 96]
+New split point is 0
+Partitioning [24, 33, 59, 45, 54, 8, 5]
+Pivoting on 45
+After pivot: [1, 24, 33, 8, 5, 45, 59, 54, 76, 96]
+New split point is 5
+Partitioning [24, 33, 8, 5]
+Pivoting on 33
+After pivot: [1, 24, 8, 5, 33, 45, 59, 54, 76, 96]
+New split point is 4
+Partitioning [24, 8, 5]
+Pivoting on 8
+After pivot: [1, 5, 8, 24, 33, 45, 59, 54, 76, 96]
+New split point is 2
+Partitioning [59, 54]
+Pivoting on 59
+After pivot: [1, 5, 8, 24, 33, 45, 54, 59, 76, 96]
+New split point is 7
+[1, 5, 8, 24, 33, 45, 54, 59, 76, 96]
+Partitioning [74, 35, 59, 21, 15, 92, 55, 9, 79, 67]
+Pivoting on 15
+After pivot: [9, 15, 74, 35, 59, 21, 92, 55, 79, 67]
+New split point is 1
+Partitioning [74, 35, 59, 21, 92, 55, 79, 67]
+Pivoting on 21
+After pivot: [9, 15, 21, 74, 35, 59, 92, 55, 79, 67]
+New split point is 2
+Partitioning [74, 35, 59, 92, 55, 79, 67]
+Pivoting on 92
+After pivot: [9, 15, 21, 74, 35, 59, 55, 79, 67, 92]
+New split point is 9
+Partitioning [74, 35, 59, 55, 79, 67]
+Pivoting on 59
+After pivot: [9, 15, 21, 35, 55, 59, 74, 79, 67, 92]
+New split point is 5
+Partitioning [35, 55]
+Pivoting on 35
+After pivot: [9, 15, 21, 35, 55, 59, 74, 79, 67, 92]
+New split point is 3
+Partitioning [74, 79, 67]
+Pivoting on 79
+After pivot: [9, 15, 21, 35, 55, 59, 74, 67, 79, 92]
+New split point is 8
+Partitioning [74, 67]
+Pivoting on 74
+After pivot: [9, 15, 21, 35, 55, 59, 67, 74, 79, 92]
+New split point is 7
+[9, 15, 21, 35, 55, 59, 67, 74, 79, 92]
+Partitioning [1, 65, 28, 58, 98, 32, 95, 33, 71, 44]
+Pivoting on 98
+After pivot: [1, 65, 28, 58, 32, 95, 33, 71, 44, 98]
+New split point is 9
+Partitioning [1, 65, 28, 58, 32, 95, 33, 71, 44]
+Pivoting on 32
+After pivot: [1, 28, 32, 65, 58, 95, 33, 71, 44, 98]
+New split point is 2
+Partitioning [1, 28]
+Pivoting on 1
+After pivot: [1, 28, 32, 65, 58, 95, 33, 71, 44, 98]
+New split point is 0
+Partitioning [65, 58, 95, 33, 71, 44]
+Pivoting on 95
+After pivot: [1, 28, 32, 65, 58, 33, 71, 44, 95, 98]
+New split point is 8
+Partitioning [65, 58, 33, 71, 44]
+Pivoting on 33
+After pivot: [1, 28, 32, 33, 65, 58, 71, 44, 95, 98]
+New split point is 3
+Partitioning [65, 58, 71, 44]
+Pivoting on 58
+After pivot: [1, 28, 32, 33, 44, 58, 65, 71, 95, 98]
+New split point is 5
+Partitioning [65, 71]
+Pivoting on 65
+After pivot: [1, 28, 32, 33, 44, 58, 65, 71, 95, 98]
+New split point is 6
+[1, 28, 32, 33, 44, 58, 65, 71, 95, 98]
+Partitioning [42, 14, 18, 45, 17, 93, 80, 85, 16, 24]
+Pivoting on 17
+After pivot: [14, 16, 17, 42, 18, 45, 93, 80, 85, 24]
+New split point is 2
+Partitioning [14, 16]
+Pivoting on 14
+After pivot: [14, 16, 17, 42, 18, 45, 93, 80, 85, 24]
+New split point is 0
+Partitioning [42, 18, 45, 93, 80, 85, 24]
+Pivoting on 93
+After pivot: [14, 16, 17, 42, 18, 45, 80, 85, 24, 93]
+New split point is 9
+Partitioning [42, 18, 45, 80, 85, 24]
+Pivoting on 45
+After pivot: [14, 16, 17, 42, 18, 24, 45, 80, 85, 93]
+New split point is 6
+Partitioning [42, 18, 24]
+Pivoting on 18
+After pivot: [14, 16, 17, 18, 42, 24, 45, 80, 85, 93]
+New split point is 3
+Partitioning [42, 24]
+Pivoting on 42
+After pivot: [14, 16, 17, 18, 24, 42, 45, 80, 85, 93]
+New split point is 5
+Partitioning [80, 85]
+Pivoting on 80
+After pivot: [14, 16, 17, 18, 24, 42, 45, 80, 85, 93]
+New split point is 7
+[14, 16, 17, 18, 24, 42, 45, 80, 85, 93]
+Partitioning [37, 78, 38, 80, 85, 2, 44, 24, 87, 28]
+Pivoting on 85
+After pivot: [37, 78, 38, 80, 2, 44, 24, 28, 85, 87]
+New split point is 8
+Partitioning [37, 78, 38, 80, 2, 44, 24, 28]
+Pivoting on 80
+After pivot: [37, 78, 38, 2, 44, 24, 28, 80, 85, 87]
+New split point is 7
+Partitioning [37, 78, 38, 2, 44, 24, 28]
+Pivoting on 2
+After pivot: [2, 37, 78, 38, 44, 24, 28, 80, 85, 87]
+New split point is 0
+Partitioning [37, 78, 38, 44, 24, 28]
+Pivoting on 38
+After pivot: [2, 37, 24, 28, 38, 78, 44, 80, 85, 87]
+New split point is 4
+Partitioning [37, 24, 28]
+Pivoting on 24
+After pivot: [2, 24, 37, 28, 38, 78, 44, 80, 85, 87]
+New split point is 1
+Partitioning [37, 28]
+Pivoting on 37
+After pivot: [2, 24, 28, 37, 38, 78, 44, 80, 85, 87]
+New split point is 3
+Partitioning [78, 44]
+Pivoting on 78
+After pivot: [2, 24, 28, 37, 38, 44, 78, 80, 85, 87]
+New split point is 6
+[2, 24, 28, 37, 38, 44, 78, 80, 85, 87]
+Partitioning [44, 11, 40, 71, 33, 21, 74, 2, 14, 60]
+Pivoting on 33
+After pivot: [11, 21, 2, 14, 33, 44, 40, 71, 74, 60]
+New split point is 4
+Partitioning [11, 21, 2, 14]
+Pivoting on 21
+After pivot: [11, 2, 14, 21, 33, 44, 40, 71, 74, 60]
+New split point is 3
+Partitioning [11, 2, 14]
+Pivoting on 2
+After pivot: [2, 11, 14, 21, 33, 44, 40, 71, 74, 60]
+New split point is 0
+Partitioning [11, 14]
+Pivoting on 11
+After pivot: [2, 11, 14, 21, 33, 44, 40, 71, 74, 60]
+New split point is 1
+Partitioning [44, 40, 71, 74, 60]
+Pivoting on 71
+After pivot: [2, 11, 14, 21, 33, 44, 40, 60, 71, 74]
+New split point is 8
+Partitioning [44, 40, 60]
+Pivoting on 40
+After pivot: [2, 11, 14, 21, 33, 40, 44, 60, 71, 74]
+New split point is 5
+Partitioning [44, 60]
+Pivoting on 44
+After pivot: [2, 11, 14, 21, 33, 40, 44, 60, 71, 74]
+New split point is 6
+[2, 11, 14, 21, 33, 40, 44, 60, 71, 74]
+Partitioning [13, 83, 74, 76, 22, 3, 91, 1, 68, 8]
+Pivoting on 22
+After pivot: [13, 3, 1, 8, 22, 83, 74, 76, 91, 68]
+New split point is 4
+Partitioning [13, 3, 1, 8]
+Pivoting on 3
+After pivot: [1, 3, 13, 8, 22, 83, 74, 76, 91, 68]
+New split point is 1
+Partitioning [13, 8]
+Pivoting on 13
+After pivot: [1, 3, 8, 13, 22, 83, 74, 76, 91, 68]
+New split point is 3
+Partitioning [83, 74, 76, 91, 68]
+Pivoting on 76
+After pivot: [1, 3, 8, 13, 22, 74, 68, 76, 83, 91]
+New split point is 7
+Partitioning [74, 68]
+Pivoting on 74
+After pivot: [1, 3, 8, 13, 22, 68, 74, 76, 83, 91]
+New split point is 6
+Partitioning [83, 91]
+Pivoting on 83
+After pivot: [1, 3, 8, 13, 22, 68, 74, 76, 83, 91]
+New split point is 8
+[1, 3, 8, 13, 22, 68, 74, 76, 83, 91] 
+
+Partitioning [22, 17, 89, 14, 62, 43, 21, 18, 97, 41]
+Pivoting on 62
+After pivot: [22, 17, 14, 43, 21, 18, 41, 62, 89, 97]
+New split point is 7
+Partitioning [22, 17, 14, 43, 21, 18, 41]
+Pivoting on 43
+After pivot: [22, 17, 14, 21, 18, 41, 43, 62, 89, 97]
+New split point is 6
+Partitioning [22, 17, 14, 21, 18, 41]
+Pivoting on 14
+After pivot: [14, 22, 17, 21, 18, 41, 43, 62, 89, 97]
+New split point is 0
+Partitioning [22, 17, 21, 18, 41]
+Pivoting on 21
+After pivot: [14, 17, 18, 21, 22, 41, 43, 62, 89, 97]
+New split point is 3
+Partitioning [17, 18]
+Pivoting on 17
+After pivot: [14, 17, 18, 21, 22, 41, 43, 62, 89, 97]
+New split point is 1
+Partitioning [22, 41]
+Pivoting on 22
+After pivot: [14, 17, 18, 21, 22, 41, 43, 62, 89, 97]
+New split point is 4
+Partitioning [89, 97]
+Pivoting on 89
+After pivot: [14, 17, 18, 21, 22, 41, 43, 62, 89, 97]
+New split point is 8
+[14, 17, 18, 21, 22, 41, 43, 62, 89, 97] 
+
+Partitioning [54, 99, 41, 8, 53, 93, 23, 30, 10, 18]
+Pivoting on 53
+After pivot: [41, 8, 23, 30, 10, 18, 53, 54, 99, 93]
+New split point is 6
+Partitioning [41, 8, 23, 30, 10, 18]
+Pivoting on 23
+After pivot: [8, 10, 18, 23, 41, 30, 53, 54, 99, 93]
+New split point is 3
+Partitioning [8, 10, 18]
+Pivoting on 10
+After pivot: [8, 10, 18, 23, 41, 30, 53, 54, 99, 93]
+New split point is 1
+Partitioning [41, 30]
+Pivoting on 41
+After pivot: [8, 10, 18, 23, 30, 41, 53, 54, 99, 93]
+New split point is 5
+Partitioning [54, 99, 93]
+Pivoting on 99
+After pivot: [8, 10, 18, 23, 30, 41, 53, 54, 93, 99]
+New split point is 9
+Partitioning [54, 93]
+Pivoting on 54
+After pivot: [8, 10, 18, 23, 30, 41, 53, 54, 93, 99]
+New split point is 7
+[8, 10, 18, 23, 30, 41, 53, 54, 93, 99] 
+
+Partitioning [0, 26, 81, 99, 8, 61, 86, 85, 6, 76]
+Pivoting on 8
+After pivot: [0, 6, 8, 26, 81, 99, 61, 86, 85, 76]
+New split point is 2
+Partitioning [0, 6]
+Pivoting on 0
+After pivot: [0, 6, 8, 26, 81, 99, 61, 86, 85, 76]
+New split point is 0
+Partitioning [26, 81, 99, 61, 86, 85, 76]
+Pivoting on 61
+After pivot: [0, 6, 8, 26, 61, 81, 99, 86, 85, 76]
+New split point is 4
+Partitioning [81, 99, 86, 85, 76]
+Pivoting on 86
+After pivot: [0, 6, 8, 26, 61, 81, 85, 76, 86, 99]
+New split point is 8
+Partitioning [81, 85, 76]
+Pivoting on 85
+After pivot: [0, 6, 8, 26, 61, 81, 76, 85, 86, 99]
+New split point is 7
+Partitioning [81, 76]
+Pivoting on 81
+After pivot: [0, 6, 8, 26, 61, 76, 81, 85, 86, 99]
+New split point is 6
+[0, 6, 8, 26, 61, 76, 81, 85, 86, 99] 
+
+Partitioning [82, 90, 51, 83, 84, 16, 73, 17, 69, 80]
+Pivoting on 84
+After pivot: [82, 51, 83, 16, 73, 17, 69, 80, 84, 90]
+New split point is 8
+Partitioning [82, 51, 83, 16, 73, 17, 69, 80]
+Pivoting on 16
+After pivot: [16, 82, 51, 83, 73, 17, 69, 80, 84, 90]
+New split point is 0
+Partitioning [82, 51, 83, 73, 17, 69, 80]
+Pivoting on 73
+After pivot: [16, 51, 17, 69, 73, 82, 83, 80, 84, 90]
+New split point is 4
+Partitioning [51, 17, 69]
+Pivoting on 17
+After pivot: [16, 17, 51, 69, 73, 82, 83, 80, 84, 90]
+New split point is 1
+Partitioning [51, 69]
+Pivoting on 51
+After pivot: [16, 17, 51, 69, 73, 82, 83, 80, 84, 90]
+New split point is 2
+Partitioning [82, 83, 80]
+Pivoting on 83
+After pivot: [16, 17, 51, 69, 73, 82, 80, 83, 84, 90]
+New split point is 7
+Partitioning [82, 80]
+Pivoting on 82
+After pivot: [16, 17, 51, 69, 73, 80, 82, 83, 84, 90]
+New split point is 6
+[16, 17, 51, 69, 73, 80, 82, 83, 84, 90] 
+
+Partitioning [65, 45, 21, 31, 1, 59, 2, 77, 43, 12]
+Pivoting on 1
+After pivot: [1, 65, 45, 21, 31, 59, 2, 77, 43, 12]
+New split point is 0
+Partitioning [65, 45, 21, 31, 59, 2, 77, 43, 12]
+Pivoting on 59
+After pivot: [1, 45, 21, 31, 2, 43, 12, 59, 65, 77]
+New split point is 7
+Partitioning [45, 21, 31, 2, 43, 12]
+Pivoting on 31
+After pivot: [1, 21, 2, 12, 31, 45, 43, 59, 65, 77]
+New split point is 4
+Partitioning [21, 2, 12]
+Pivoting on 2
+After pivot: [1, 2, 21, 12, 31, 45, 43, 59, 65, 77]
+New split point is 1
+Partitioning [21, 12]
+Pivoting on 21
+After pivot: [1, 2, 12, 21, 31, 45, 43, 59, 65, 77]
+New split point is 3
+Partitioning [45, 43]
+Pivoting on 45
+After pivot: [1, 2, 12, 21, 31, 43, 45, 59, 65, 77]
+New split point is 6
+Partitioning [65, 77]
+Pivoting on 65
+After pivot: [1, 2, 12, 21, 31, 43, 45, 59, 65, 77]
+New split point is 8
+[1, 2, 12, 21, 31, 43, 45, 59, 65, 77] 
+
+Partitioning [95, 36, 46, 30, 58, 54, 48, 28, 76, 40]
+Pivoting on 58
+After pivot: [36, 46, 30, 54, 48, 28, 40, 58, 95, 76]
+New split point is 7
+Partitioning [36, 46, 30, 54, 48, 28, 40]
+Pivoting on 54
+After pivot: [36, 46, 30, 48, 28, 40, 54, 58, 95, 76]
+New split point is 6
+Partitioning [36, 46, 30, 48, 28, 40]
+Pivoting on 30
+After pivot: [28, 30, 36, 46, 48, 40, 54, 58, 95, 76]
+New split point is 1
+Partitioning [36, 46, 48, 40]
+Pivoting on 46
+After pivot: [28, 30, 36, 40, 46, 48, 54, 58, 95, 76]
+New split point is 4
+Partitioning [36, 40]
+Pivoting on 36
+After pivot: [28, 30, 36, 40, 46, 48, 54, 58, 95, 76]
+New split point is 2
+Partitioning [95, 76]
+Pivoting on 95
+After pivot: [28, 30, 36, 40, 46, 48, 54, 58, 76, 95]
+New split point is 9
+[28, 30, 36, 40, 46, 48, 54, 58, 76, 95] 
+
+Partitioning [90, 87, 32, 80, 60, 62, 74, 79, 91, 99]
+Pivoting on 60
+After pivot: [32, 60, 90, 87, 80, 62, 74, 79, 91, 99]
+New split point is 1
+Partitioning [90, 87, 80, 62, 74, 79, 91, 99]
+Pivoting on 62
+After pivot: [32, 60, 62, 90, 87, 80, 74, 79, 91, 99]
+New split point is 2
+Partitioning [90, 87, 80, 74, 79, 91, 99]
+Pivoting on 74
+After pivot: [32, 60, 62, 74, 90, 87, 80, 79, 91, 99]
+New split point is 3
+Partitioning [90, 87, 80, 79, 91, 99]
+Pivoting on 80
+After pivot: [32, 60, 62, 74, 79, 80, 90, 87, 91, 99]
+New split point is 5
+Partitioning [90, 87, 91, 99]
+Pivoting on 87
+After pivot: [32, 60, 62, 74, 79, 80, 87, 90, 91, 99]
+New split point is 6
+Partitioning [90, 91, 99]
+Pivoting on 91
+After pivot: [32, 60, 62, 74, 79, 80, 87, 90, 91, 99]
+New split point is 8
+[32, 60, 62, 74, 79, 80, 87, 90, 91, 99] 
+
+Partitioning [22, 96, 68, 47, 71, 65, 79, 36, 83, 97]
+Pivoting on 71
+After pivot: [22, 68, 47, 65, 36, 71, 96, 79, 83, 97]
+New split point is 5
+Partitioning [22, 68, 47, 65, 36]
+Pivoting on 47
+After pivot: [22, 36, 47, 68, 65, 71, 96, 79, 83, 97]
+New split point is 2
+Partitioning [22, 36]
+Pivoting on 22
+After pivot: [22, 36, 47, 68, 65, 71, 96, 79, 83, 97]
+New split point is 0
+Partitioning [68, 65]
+Pivoting on 68
+After pivot: [22, 36, 47, 65, 68, 71, 96, 79, 83, 97]
+New split point is 4
+Partitioning [96, 79, 83, 97]
+Pivoting on 79
+After pivot: [22, 36, 47, 65, 68, 71, 79, 96, 83, 97]
+New split point is 6
+Partitioning [96, 83, 97]
+Pivoting on 83
+After pivot: [22, 36, 47, 65, 68, 71, 79, 83, 96, 97]
+New split point is 7
+Partitioning [96, 97]
+Pivoting on 96
+After pivot: [22, 36, 47, 65, 68, 71, 79, 83, 96, 97]
+New split point is 8
+[22, 36, 47, 65, 68, 71, 79, 83, 96, 97] 
+
+Partitioning [0, 26, 74, 69, 54, 90, 11, 57, 85, 3]
+Pivoting on 54
+After pivot: [0, 26, 11, 3, 54, 74, 69, 90, 57, 85]
+New split point is 4
+Partitioning [0, 26, 11, 3]
+Pivoting on 26
+After pivot: [0, 11, 3, 26, 54, 74, 69, 90, 57, 85]
+New split point is 3
+Partitioning [0, 11, 3]
+Pivoting on 11
+After pivot: [0, 3, 11, 26, 54, 74, 69, 90, 57, 85]
+New split point is 2
+Partitioning [0, 3]
+Pivoting on 0
+After pivot: [0, 3, 11, 26, 54, 74, 69, 90, 57, 85]
+New split point is 0
+Partitioning [74, 69, 90, 57, 85]
+Pivoting on 90
+After pivot: [0, 3, 11, 26, 54, 74, 69, 57, 85, 90]
+New split point is 9
+Partitioning [74, 69, 57, 85]
+Pivoting on 69
+After pivot: [0, 3, 11, 26, 54, 57, 69, 74, 85, 90]
+New split point is 6
+Partitioning [74, 85]
+Pivoting on 74
+After pivot: [0, 3, 11, 26, 54, 57, 69, 74, 85, 90]
+New split point is 7
+[0, 3, 11, 26, 54, 57, 69, 74, 85, 90] 
+
+Partitioning [39, 23, 49, 89, 84, 97, 11, 98, 90, 30]
+Pivoting on 84
+After pivot: [39, 23, 49, 11, 30, 84, 89, 97, 98, 90]
+New split point is 5
+Partitioning [39, 23, 49, 11, 30]
+Pivoting on 49
+After pivot: [39, 23, 11, 30, 49, 84, 89, 97, 98, 90]
+New split point is 4
+Partitioning [39, 23, 11, 30]
+Pivoting on 23
+After pivot: [11, 23, 39, 30, 49, 84, 89, 97, 98, 90]
+New split point is 1
+Partitioning [39, 30]
+Pivoting on 39
+After pivot: [11, 23, 30, 39, 49, 84, 89, 97, 98, 90]
+New split point is 3
+Partitioning [89, 97, 98, 90]
+Pivoting on 97
+After pivot: [11, 23, 30, 39, 49, 84, 89, 90, 97, 98]
+New split point is 8
+Partitioning [89, 90]
+Pivoting on 89
+After pivot: [11, 23, 30, 39, 49, 84, 89, 90, 97, 98]
+New split point is 6
+[11, 23, 30, 39, 49, 84, 89, 90, 97, 98] 
+
+Partitioning [40, 76, 73, 5, 33, 46, 41, 63, 53, 14]
+Pivoting on 33
+After pivot: [5, 14, 33, 40, 76, 73, 46, 41, 63, 53]
+New split point is 2
+Partitioning [5, 14]
+Pivoting on 5
+After pivot: [5, 14, 33, 40, 76, 73, 46, 41, 63, 53]
+New split point is 0
+Partitioning [40, 76, 73, 46, 41, 63, 53]
+Pivoting on 46
+After pivot: [5, 14, 33, 40, 41, 46, 76, 73, 63, 53]
+New split point is 5
+Partitioning [40, 41]
+Pivoting on 40
+After pivot: [5, 14, 33, 40, 41, 46, 76, 73, 63, 53]
+New split point is 3
+Partitioning [76, 73, 63, 53]
+Pivoting on 73
+After pivot: [5, 14, 33, 40, 41, 46, 63, 53, 73, 76]
+New split point is 8
+Partitioning [63, 53]
+Pivoting on 63
+After pivot: [5, 14, 33, 40, 41, 46, 53, 63, 73, 76]
+New split point is 7
+[5, 14, 33, 40, 41, 46, 53, 63, 73, 76] 
+
+Partitioning [85, 5, 45, 11, 76, 47, 73, 13, 81, 18]
+Pivoting on 76
+After pivot: [5, 45, 11, 47, 73, 13, 18, 76, 85, 81]
+New split point is 7
+Partitioning [5, 45, 11, 47, 73, 13, 18]
+Pivoting on 47
+After pivot: [5, 45, 11, 13, 18, 47, 73, 76, 85, 81]
+New split point is 5
+Partitioning [5, 45, 11, 13, 18]
+Pivoting on 11
+After pivot: [5, 11, 45, 13, 18, 47, 73, 76, 85, 81]
+New split point is 1
+Partitioning [45, 13, 18]
+Pivoting on 13
+After pivot: [5, 11, 13, 45, 18, 47, 73, 76, 85, 81]
+New split point is 2
+Partitioning [45, 18]
+Pivoting on 45
+After pivot: [5, 11, 13, 18, 45, 47, 73, 76, 85, 81]
+New split point is 4
+Partitioning [85, 81]
+Pivoting on 85
+After pivot: [5, 11, 13, 18, 45, 47, 73, 76, 81, 85]
+New split point is 9
+[5, 11, 13, 18, 45, 47, 73, 76, 81, 85] 
+
+Partitioning [69, 39, 60, 24, 78, 0, 47, 30, 57, 76]
+Pivoting on 78
+After pivot: [69, 39, 60, 24, 0, 47, 30, 57, 76, 78]
+New split point is 9
+Partitioning [69, 39, 60, 24, 0, 47, 30, 57, 76]
+Pivoting on 0
+After pivot: [0, 69, 39, 60, 24, 47, 30, 57, 76, 78]
+New split point is 0
+Partitioning [69, 39, 60, 24, 47, 30, 57, 76]
+Pivoting on 24
+After pivot: [0, 24, 69, 39, 60, 47, 30, 57, 76, 78]
+New split point is 1
+Partitioning [69, 39, 60, 47, 30, 57, 76]
+Pivoting on 47
+After pivot: [0, 24, 39, 30, 47, 69, 60, 57, 76, 78]
+New split point is 4
+Partitioning [39, 30]
+Pivoting on 39
+After pivot: [0, 24, 30, 39, 47, 69, 60, 57, 76, 78]
+New split point is 3
+Partitioning [69, 60, 57, 76]
+Pivoting on 60
+After pivot: [0, 24, 30, 39, 47, 57, 60, 69, 76, 78]
+New split point is 6
+Partitioning [69, 76]
+Pivoting on 69
+After pivot: [0, 24, 30, 39, 47, 57, 60, 69, 76, 78]
+New split point is 7
+[0, 24, 30, 39, 47, 57, 60, 69, 76, 78] 
+
+Partitioning [41, 13, 57, 71, 45, 97, 79, 25, 17, 49]
+Pivoting on 45
+After pivot: [41, 13, 25, 17, 45, 57, 71, 97, 79, 49]
+New split point is 4
+Partitioning [41, 13, 25, 17]
+Pivoting on 13
+After pivot: [13, 41, 25, 17, 45, 57, 71, 97, 79, 49]
+New split point is 0
+Partitioning [41, 25, 17]
+Pivoting on 25
+After pivot: [13, 17, 25, 41, 45, 57, 71, 97, 79, 49]
+New split point is 2
+Partitioning [57, 71, 97, 79, 49]
+Pivoting on 97
+After pivot: [13, 17, 25, 41, 45, 57, 71, 79, 49, 97]
+New split point is 9
+Partitioning [57, 71, 79, 49]
+Pivoting on 71
+After pivot: [13, 17, 25, 41, 45, 57, 49, 71, 79, 97]
+New split point is 7
+Partitioning [57, 49]
+Pivoting on 57
+After pivot: [13, 17, 25, 41, 45, 49, 57, 71, 79, 97]
+New split point is 6
+[13, 17, 25, 41, 45, 49, 57, 71, 79, 97] 
+
