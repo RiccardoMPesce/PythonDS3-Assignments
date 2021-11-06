@@ -1,4 +1,5 @@
 import random
+import time
 
 def bubble_sort(a, debug=False):
     if debug:
@@ -25,7 +26,7 @@ def selection_sort(a, debug=False):
         if min_idx != i:
             a[min_idx], a[i] = a[i], a[min_idx]
 
-def insertion_sort(a, debug):
+def insertion_sort(a, debug=False):
     if debug:
         print(a)
 
@@ -119,10 +120,13 @@ def partition(a, low, high, pivot=None, debug=False):
     return low + len(la)
 
 def main():
-    for _ in range(15):
-        a = random.sample(range(100), 10)
-        quick_sort(a, pivot="middle", debug=True)
-        print(a, "\n")
+    a = random.sample(range(1000), 500)
+    for algorithm in [bubble_sort, selection_sort, insertion_sort, shell_sort, merge_sort, quick_sort]:
+        a_copy = a[:]
+        start = time.time()
+        algorithm(a_copy)
+        end = time.time()
+        print(f"{algorithm} took {end - start} to sort the random array.")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,8 @@
+<function bubble_sort at 0x101c90550> took 0.03870272636413574 to sort the random array.
+<function selection_sort at 0x101cb4040> took 0.02764892578125 to sort the random array.
+<function bubble_sort at 0x104dfb550> took 0.028320789337158203 to sort the random array.
+<function selection_sort at 0x104e1f040> took 0.02516484260559082 to sort the random array.
+<function insertion_sort at 0x104e1f0d0> took 0.028105974197387695 to sort the random array.
+<function shell_sort at 0x104e1f160> took 0.009149312973022461 to sort the random array.
+<function merge_sort at 0x104e1f1f0> took 0.002702951431274414 to sort the random array.
+<function quick_sort at 0x104e1f310> took 0.002477884292602539 to sort the random array.
