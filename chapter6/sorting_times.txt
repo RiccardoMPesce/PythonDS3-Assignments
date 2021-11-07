@@ -6,3 +6,9 @@
 <function shell_sort at 0x104e1f160> took 0.009149312973022461 to sort the random array.
 <function merge_sort at 0x104e1f1f0> took 0.002702951431274414 to sort the random array.
 <function quick_sort at 0x104e1f310> took 0.002477884292602539 to sort the random array.
+<function bubble_sort at 0x104d00550> took 0.028378725051879883 to sort the random array.
+<function selection_sort at 0x104d24040> took 0.01730513572692871 to sort the random array.
+<function insertion_sort at 0x104d240d0> took 0.029684066772460938 to sort the random array.
+<function shell_sort at 0x104d24160> took 0.008806943893432617 to sort the random array.
+<function merge_sort at 0x104d241f0> took 0.003484010696411133 to sort the random array.
+<function quick_sort at 0x104d24310> took 0.0033626556396484375 to sort the random array.
