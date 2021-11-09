@@ -12,3 +12,9 @@
 <function shell_sort at 0x104d24160> took 0.008806943893432617 to sort the random array.
 <function merge_sort at 0x104d241f0> took 0.003484010696411133 to sort the random array.
 <function quick_sort at 0x104d24310> took 0.0033626556396484375 to sort the random array.
+<function bubble_sort at 0x100b5b550> took 0.022724151611328125 to sort the random array.
+<function selection_sort at 0x100b7f040> took 0.017286062240600586 to sort the random array.
+<function insertion_sort at 0x100b7f0d0> took 0.022850990295410156 to sort the random array.
+<function shell_sort at 0x100b7f160> took 0.007105112075805664 to sort the random array.
+<function merge_sort at 0x100b7f1f0> took 0.0025031566619873047 to sort the random array.
+<function quick_sort at 0x100b7f310> took 0.003064870834350586 to sort the random array.
