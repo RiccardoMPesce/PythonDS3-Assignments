@@ -1,5 +1,6 @@
 import random
 import time
+import statistics
 
 def bubble_sort(a, debug=False):
     if debug:
@@ -91,33 +92,33 @@ def quick_sort(a, low=None, high=None, pivot=None, debug=False):
     if high is None:
         high = len(a) - 1
 
+    if len(a) == 1:
+        return a
+
     if low < high:
-        separator = partition(a, low, high, pivot, debug)
+        separator = partition(a, low, high, pivot)
+        if debug:
+            print(f"Sorting {a} and pivoting on {a[separator]}")
         quick_sort(a, low, separator - 1, pivot, debug) 
         quick_sort(a, separator + 1, high, pivot, debug)
 
 def partition(a, low, high, pivot=None, debug=False):
     if pivot == "middle":
-        pivot = (high + low) // 2
+        pivot = a[(high + low) // 2]
+    elif pivot == "median":
+        pivot = statistics.median([a[low], a[(low + high) // 2], a[high - 1]])
     else:
-        pivot = random.randint(low, high)
-
-    if debug:
-        print(f"Partitioning {a[low:high + 1]}")
-        print(f"Pivoting on {a[pivot]}")
+        pivot = a[random.randint(low, high - 1)]
         
-    la = [n for n in a[low:high + 1] if n < a[pivot]]
-    ma = [n for n in a[low:high + 1] if n == a[pivot]]
-    ha = [n for n in a[low:high + 1] if n > a[pivot]]
+    i = low - 1
+    for j in range(low, high):
+        if a[j] <= pivot:
+            i += 1
+            a[i], a[j] = a[j], a[i]
 
-    new_a = la + ma + ha
-    a[low:high + 1] = new_a[:]
+    a[i + 1], a[high] = a[high], a[i + 1]
 
-    if debug:
-        print(f"After pivot: {a}")
-        print(f"New split point is {low + len(la)}")
-    
-    return low + len(la)
+    return i + 1
 
 def main():
     a = random.sample(range(1000), 500)
