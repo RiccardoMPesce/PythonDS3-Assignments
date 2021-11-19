@@ -4,3 +4,6 @@
 
 * #### [Exercises](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter7/chapter7_exercises.ipynb)
 
+* #### Extras
+    * [Two build_tree() implementations](./build_tree.py)
+
