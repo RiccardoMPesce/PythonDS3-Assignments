@@ -6,4 +6,5 @@
 
 * #### Extras
     * [Two build_tree() implementations](./build_tree.py)
+    * [AVL Tree remaining exercises](./AVLTree.ipynb)
 
