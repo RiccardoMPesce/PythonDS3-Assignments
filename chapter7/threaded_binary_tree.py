@@ -2,7 +2,6 @@
 """
 Riccardo M. Pesce, 2022
 """
-import operator
 from typing import Any, Union
 
 from binary_tree import BinaryTree
