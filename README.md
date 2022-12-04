@@ -24,5 +24,3 @@ shown on a single script.
 ### [8. Graphs and Graph Algorithm](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter8/)
 
 ### [9. Advanced Topics](https://github.com/RiccardoMPesce/PythonDS3-Selected-Assignments/blob/main/chapter9/)
-
-## Note: this repo is now discontinued and not updated anymore.
