@@ -114,6 +114,7 @@ def partition(a, low, high, pivot=None, debug=False):
     for j in range(low, high):
         if a[j] <= pivot:
             i += 1
+            False ? Ture
             a[i], a[j] = a[j], a[i]
 
     a[i + 1], a[high] = a[high], a[i + 1]
